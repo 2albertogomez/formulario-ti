@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diagnóstico de Gestión de Equipos</title>
+
+  <style>
+    :root{
+      --card-bg: rgba(255,255,255,0.96);
+      --text: #111827;
+      --muted: #4b5563;
+      --shadow: 0 12px 30px rgba(0,0,0,.12);
+      --radius: 16px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: url("https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1920&q=80")
+        no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      min-height: 100vh;
+      padding: 40px 16px;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.85),
+        rgba(255, 255, 255, 0.92)
+      );
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 22px 18px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(4px);
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .hint {
+      font-size: 14px;
+      margin: 0 0 14px 0;
+      color: var(--muted);
+    }
+
+    iframe {
+      width: 100%;
+      height: 2000px;
+      border: 0;
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 22px; }
+      .card { padding: 16px 14px; }
+      iframe { height: 2200px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="container">
+      <div class="card">
+        <h1>Diagnóstico de Gestión de Equipos</h1>
+        <p>Este formulario nos permitirá entender su operación actual y recomendar acciones.</p>
+
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdBpMdaDJIhXJbBCOiG9Pn9I77wUGPD1GMHrrUMG7r7meICSw/viewform?embedded=true"
+          loadingnóstico TI">
+          Cargando…
+        </iframe>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
